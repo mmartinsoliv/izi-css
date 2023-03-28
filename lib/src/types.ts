@@ -1,6 +1,7 @@
 export type ClassValue = string | ClassValue[]
 export type ClassProp = { className?: ClassValue }
 
+// function to variants definition
 export type VariantsDefinition = {
   [VariantName: string]: {
     [VariantOption: string]: ClassValue
